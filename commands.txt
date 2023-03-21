@@ -1,0 +1,14 @@
+npm init --yes
+npm i express
+npm i -D typescript  @types/node @types/express
+tsc --init
+npm i dotenv
+npm i -D nodemon ts-node
+// to start => npm run + name of the script
+npm i eslint -D
+npx eslint --init
+npm i -D eslint-plugin-import eslint-import-resolver-typescript prettier eslint-config-prettier eslint-plugin-prettier 
+npm i typeorm reflect-metadata mysql2
+npm i cors @types/cors body-parser
+npm i class-transformer
+npm i express-validator

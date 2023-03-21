@@ -1,0 +1,25 @@
+### Fetch all tasks
+GET http://localhost:3000/tasks
+Content-Type: application/json
+
+### Create new task
+POST http://localhost:3000/tasks
+Content-Type: application/json
+
+{
+    "title": "vvxv",
+    "date": "2021-01-01T12:00:00Z",
+    "description": "fgfhfhfhfh",
+    "priority": "normal",
+    "status": "todo"
+}
+
+### Update a task
+
+PUT http://localhost:3000/tasks
+Content-Type: application/json
+
+{
+    "id": "9a628de3-06cd-466b-b16c-096582c0e536",
+    "status": "todo"
+}
